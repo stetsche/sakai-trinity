@@ -98,6 +98,9 @@ a, .nav-link {
   border-width: 0 0 4px 0;
   border-radius: 0;
 }
+.sakai-toolPages.nav-tabs .nav-link.active {
+  border-color: transparent transparent var(--bs-primary) transparent;
+}
 .sakai-toolPages.nav-tabs .nav-link:focus, .sakai-toolPages.nav-tabs .nav-link:hover {
   margin-bottom: -4px;
   border-color: transparent transparent var(--bs-primary) transparent;
@@ -105,4 +108,10 @@ a, .nav-link {
 .sakai-footer .nav-link {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+@media (max-width: 768px){
+    .fc-toolbar {
+        flex-direction: column;
+    }
 }
