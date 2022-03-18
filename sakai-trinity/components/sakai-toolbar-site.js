@@ -168,7 +168,7 @@ export class SakaiToolbarSite extends LitElement {
               tabindex="-1"
               class="sakai-sitesNav__submenuitem-link"
               role="menuitem"
-              href="#"
+              href="/sakai-trinity/calendar/index.html"
               title="Calendar"
             >
               <ion-icon name="calendar-outline"></ion-icon>
